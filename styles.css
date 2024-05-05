@@ -1,0 +1,20 @@
+#red-box{
+    height: 600px;
+    width: 1200px;
+    background-color: #C8102E;
+    position: relative;
+}
+#red-box > #white-box{
+    height: 200px;
+    width: 1200px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 200px;
+}
+#red-box > #blue-box{
+    height: 200px;
+    width: 1200px;
+    background-color: #003DA5;
+    position: absolute;
+    top: 400px;
+}
